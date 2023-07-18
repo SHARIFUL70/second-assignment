@@ -86,7 +86,24 @@ nav {
 .fa-tiktok {
     color: black;
 }
+
 @media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item{
+        flex-direction: column;
+    
+    }
+    .fa-brands {
+        margin-left: 5px;
+        
+    }
+    .nav-item a {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 768px ) {
     .nav-container{
         flex-direction: column;
     }
