@@ -196,11 +196,17 @@ span {
     height: 330px;
     margin-right: 20px;
     cursor: pointer;
+   
+
 }
 
 .box img:hover {
     border: 3px solid #FF42A5;
     border-radius: 15px;
+    
+    background-color:#080404;
+    filter: brightness(50%);
+
 
 
 }
