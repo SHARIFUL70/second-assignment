@@ -179,6 +179,13 @@ nav {
     .nav-item a {
         margin-top: 20px;
     }
+    .nav-banner{
+        flex-direction: column;
+        margin-top: 123px;
+    }
+    .banner-img img{
+        padding-left: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -198,5 +205,8 @@ nav {
 
     .nav-item a {
         margin-top: 20px;
+    }
+    .nav-banner{
+        padding: 50px;
     }
 }
